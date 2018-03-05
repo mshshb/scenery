@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>走进镇江景区</title>
+    <style>
+        body,p,h1,h2,h3,h4,h5,h6,ul,li{
+            padding:0;
+            margin:0;
+        }
+        ul{
+            list-style:none;
+        }
+        a{
+            text-decoration:none;
+        }
+        body{
+            width:1000px;
+            margin:0 auto;
+            padding: 0 10px;
+            font-size:14px;
+            text-align:justify;
+            box-sizing:border-box;
+            background:rgba(41,98,137,0.1);
+        }
+        #header{
+            margin:50px 0 20px 0;
+            line-height:30px;
+        }
+        #header h1{
+            text-align:center;
+        }
+        #content>#bar{
+            width:80%;
+            margin:10px 0;
+            padding:5px;
+            border:1.5px solid #777;
+            box-shadow:0 0 3px #666;
+            position:relative;
+        }
+        #content>#bar ul{
+            display:flex;
+            justify-content:space-between;
+        }
+        #content>#bar ul>li{
+            display:inline-block;
+            width:13%;
+            border:1px solid #777;
+            box-shadow:0 0 2px #666;
+            text-align:center;
+        }
+        #content>#bar ul>li>a{
+            display:inline-block;
+            width:100%;
+            padding:5px 0;
+            color:#171717;
+            background:#435552;
+            transition:all 0.3s ease-in;
+        }
+        #content>#bar ul>li>a:hover{
+            background:rgba(67,85,82,0.7);
+        }
+        #content>.intro{
+            position:relative;
+            margin:20px 0;
+        }
+        #content>.intro>.intro-item{
+            padding:20px 10px;
+            border-bottom:1px solid #777;
+            box-shadow:0 0 2px #666;
+            display:flex;
+            justify-content:space-around;
+            position:absolute;
+            top:0;
+            transition:top 0.5s ease-in;
+        }
+        #content>.intro>.intro-item>.item{
+            width:47%;
+            line-height:30px;
+            font-size:16px;
+        }
+        #content>.intro>.intro-item>.img{
+            width:47%;
+        }
+        #content>.intro>.intro-item>.img>img{
+            width:100%;
+            height:200px;
+        }
+        #content>.intro>.intro-item>.img>video{
+            width:100%;
+            height:200px;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1>走进镇江景区</h1>
+        <h3>引言：</h3>
+        <p>
+            镇江是一个历史悠久的城镇，这里人杰地灵，有很多的自然景观和人文景观，山水在这里交相辉映，
+            每座山都是一段历史，尤其是这里的北固山值得大家去看一下非常的雄伟而且非常的有气势。
+        </p>
+    </header>
+    <section id="content">
+        <h2>必游景点</h2>
+        <div id="bar">
+            <ul>
+                <li><a href="#">南山</a></li>
+                <li><a href="#">西津渡</a></li>
+                <li><a href="#">宝塔山公园</a></li>
+                <li><a href="#">金山寺</a></li>
+                <li><a href="#">焦山</a></li>
+                <li><a href="#">北固山</a></li>
+                <li><a href="#">......</a></li>
+            </ul>
+        </div>
+        <div class="intro">
+            <div class="intro-item">
+                <div class="img">
+                    <video controls muted poster="0.jpg" preload="metadata">
+			<source src="1.mp4"></source>	
+			<source src="2.avi"></source>
+			您的版本太低，请升级！
+		    </video>
+                </div>
+                <div class="item">
+                    <h3>南山</h3>
+                    <p>
+                        江苏省镇江南山风景名胜区是自然景观优美，人文景观丰富的省级风景名胜区，
+                        距市中心2.5千米，保护区18平方千米，已开发建设3.67平方千米。兼具幽深、古朴、
+                        素雅、与明朗秀丽的特色，素有"城市山林"之称。
+                    </p>
+                </div>
+            </div>
+            <div class="intro-item">
+                <div class="item">
+                    <h3>西津渡</h3>
+                    <p>
+                        也称为西津渡历史文化街区，位于镇江市区西北，承载着自唐朝以来1300多年的历史遗存，
+                        不仅被称为一部“活着的历史”，更是镇江的历史文化博览区。可以说西津渡的夜，
+                        已经成了镇江夜生活的标志之一。
+                    </p>
+                </div>
+                <div class="img"><img src="1.png"  alt=""/></div>
+            </div>
+            <div class="intro-item">
+                <div class="img"><img src="2.jpg"  alt=""/></div>
+                <div class="item">
+                    <h3>宝塔山公园</h3>
+                    <p>
+                        又称中日友谊梅樱园，地处镇江古运河风光带的鼎石山上，建于1994年4月，规划面积
+                        为12公顷，现已建成6.7公顷。公园古朴、典雅，假山清池、亭台楼阁、曲径小道、
+                        树木花草点缀其间，使公园成为自然美与艺术美的结合。
+                    </p>
+                </div>
+            </div>
+            <div class="intro-item">
+                <div class="item">
+                    <h3>金山寺</h3>
+                    <p>
+                        位于市区西北，高四十四米，周五百二十米，距市中心三公里。 古代金山是屹立于长江中
+                        流的一个岛屿，“万川东注，一岛中立”，与瓜洲、西津渡成犄角之势，为南北来往要道，
+                        久以“卒然天立镇中流，雄跨东南二百州”而闻名，被称为“江心一朵芙蓉”。
+                    </p>
+                </div>
+                <div class="img"><img src="3.png"  alt=""/></div>
+            </div>
+            <div class="intro-item">
+                <div class="img"><img src="4.jpg"  alt=""/></div>
+                <div class="item">
+                    <h3>焦山</h3>
+                    <p>
+                        位于中国历史文化名城镇江的东北面，是万里长江中唯一的一座四面环水可供游人观光
+                        探幽的岛屿，犹如中流砥柱，满山苍翠，宛若碧玉浮江。 现与金山、北固山共同组成镇江三
+                        山风景名胜区。
+                    </p>
+                </div>
+            </div>
+            <div class="intro-item">
+                <div class="item">
+                    <h3>北固山</h3>
+                    <p>
+                        于北临长江，形势险固，故名北固。北固山由前峰、中峰和后峰三部分组成。前峰原为
+                        东吴古宫殿遗址，现已辟为镇江烈士陵园；中峰上原有气象楼，现改为国画馆；后峰为北固
+                        山主峰，北临扬子江（长江），三面悬崖，地势险峻，素以“天下第一江山”闻名。
+                    </p>
+                </div>
+                <div class="img"><img src="5.jpg"  alt=""/></div>
+            </div>
+        </div>
+    </section>
+    <script>
+        var intro=document.querySelector("#content>.intro");
+        function setH(){
+            var items=intro.children;
+            var h=15;
+            for(var i= 0,len=items.length;i<len;i++){
+                var item=items[i];
+                item.style.top=h+"px";
+                h+=item.offsetHeight+15;
+            }
+        }
+        setH();
+        var bar=document.getElementById("bar");
+        var savei=0;
+        bar.onclick=function(e){
+            if(e.target.nodeName=="A"){
+                var a= e.target;
+            }else{
+                return;
+            }
+            var i=num(a.parentNode);
+            if(i==-1){
+                return;
+            }
+            var item=intro.children[i];
+            var posDown=item.offsetTop;
+            var posUp=intro.children[savei].offsetTop;
+            console.log(posDown,posUp);
+            item.style.top=posUp+"px";
+            intro.children[savei].style.top=posDown+"px";
+            savei=i;
+        }
+        bar.querySelector("ul>li:last-child>a").onclick=function(){
+            window.history.go(0);
+        }
+        function num(elem){
+            var children=elem.parentNode.children;
+            for(var i=0,len=children.length;i<len;i++){
+                if(i==len-1){
+                    return -1;
+                }
+                if(children[i]==elem){
+                    return i;
+                }
+            }
+        }
+        window.onscroll=function(){
+            var scrollTop=document.body.scrollTop || document.documentElement.scrollTop;
+            console.log(scrollTop);
+            if(scrollTop>=intro.offsetTop){
+                bar.style.position="fixed";
+                bar.style.zIndex=10;
+            }else{
+                bar.style.position="relative";
+            }
+        }
+    </script>
+</body>
+</html>
